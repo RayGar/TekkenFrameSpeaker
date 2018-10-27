@@ -1,0 +1,229 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "tekken speaker",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "speakFrameData",
+                    "slots": [
+                        {
+                            "name": "character",
+                            "type": "buttons"
+                        },
+                        {
+                            "name": "directional",
+                            "type": "directionals"
+                        },
+                        {
+                            "name": "button",
+                            "type": "buttons"
+                        }
+                    ],
+                    "samples": [
+                        "Get {character} {directional} {button}",
+                        "What is the frame data for {character} {directional} {button}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "directionals",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "up back"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "up forward"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "down back"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "down forward"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "neutral"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "half circle forward"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "half circle back"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quarter circle back"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quarter circle forward"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "down"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "up"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "back"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "forward"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "buttons",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "4",
+                                "synonyms": [
+                                    "four"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3",
+                                "synonyms": [
+                                    "three"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2",
+                                "synonyms": [
+                                    "two"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "1",
+                                "synonyms": [
+                                    "one"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "characters",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Dragunov"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Steve"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Leo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nina"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Anna"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lei"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Heihachi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kazuya"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Paul"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bryan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "King"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Law"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
